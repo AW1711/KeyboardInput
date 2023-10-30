@@ -27,5 +27,13 @@ input.addEventListener("keydown", (event) => {
 });
 
 
+const welcomeTextContainer = document.getElementById("welcomeTextContainer");
 
+welcomeTextContainer.addEventListener("mouseover", () => {
+    welcomeTextContainer.style.padding = "20px";
+});
+
+welcomeTextContainer.addEventListener("mouseout", () => {
+    welcomeTextContainer.style.padding = "10px";
+});
 
